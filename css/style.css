@@ -101,9 +101,10 @@ body{
 .main .main_link{
     border-radius: 6px;
     background: #fabaa0;
-    padding: 8px 25px;
+    padding: 13px 60px;
     transition: all 0.5s ease;
-    
+    font-weight: bold;
+    margin-top: 50px;
 }
 
 .main .main_link:hover{
