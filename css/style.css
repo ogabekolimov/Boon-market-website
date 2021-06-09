@@ -111,3 +111,35 @@ body{
     color: #fff;
     background: crimson;
 }
+
+
+
+
+
+.work_section .container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.work_subtext{
+    text-align: center;
+}
+
+.work_subtext p{
+    color: #747474;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.work_subtext h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.work_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
