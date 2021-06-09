@@ -92,11 +92,21 @@ body{
     color: crimson;
 }
 
-.main .main_link{
+.main span{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.main .main_link{
+    border-radius: 6px;
     background: #fabaa0;
     padding: 8px 25px;
+    transition: all 0.5s ease;
     
+}
+
+.main .main_link:hover{
+    color: #fff;
+    background: crimson;
 }
