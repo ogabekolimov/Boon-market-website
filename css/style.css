@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    padding: 0 80px;
+    margin: 0 auto;
+}
+
+.header_section{
+    background-image: url("/images/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.navbar_subtext{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.navbar_subtext p{
+    padding: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boon h1{
+   font-size: 45px;
+   color: #747474;
+   margin-top: 20px;
+   
+}
+
+.boon p{
+    text-align: center;
+    color: #747474;
+    margin-top: 8px;
+    font-size: 25px;
+}
+
+/* MAIN SECTION */
+
+
+.main_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.main_list .main_item{
+    padding: 40px;
+}
+
+.main_list .main_item a{
+    color: #2b2b2b;
+    font-size: 16px;
+    font-weight: bold;
+}
