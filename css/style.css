@@ -78,6 +78,14 @@ body{
     color: #2b2b2b;
     font-size: 18px;
     font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.main_list .main_item a:hover{
+    color: rgb(255, 249, 250);
+    background-color: rgb(220, 20, 203);
+    border-radius: 6px;
+    zoom: 1.2;
 }
 
 .main .main_subtext{
