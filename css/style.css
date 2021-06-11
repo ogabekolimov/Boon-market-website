@@ -13,6 +13,7 @@ body{
 .container{
     padding: 0 80px;
     margin: 0 auto;
+    height: 120vh;
 }
 
 .header_section{
@@ -115,10 +116,43 @@ body{
 
 
 
+.money{
+    background: #708D92;
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    left: 11%;
+    right: 0%;
+    top: 105%;
+    
+}
+
+.money_border{
+    position: absolute;
+    width: 1460px;
+    height: 240px;
+    border: 1px solid #fff;
+    left: 2%;
+    right: 0%;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.money_box1{
+    width: 30%;
+    border-right: 1px solid #fff;
+}
+
+
+
 
 .work_section .container{
     max-width: 1300px;
     margin: 0 auto;
+    margin-top: 250px;
+    height: 70vh;
 }
 
 .work_subtext{
@@ -142,4 +176,30 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 60px;
+}
+
+.work_item{
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.work_image{
+    width: 220px;
+}
+
+.work_text1{
+    font-size: 22px;
+    font-weight: bold;
+    color: #111;
+    margin-top: 10px;
+}
+
+.work_text1 span{
+    color: crimson;
+}
+
+.work_text2{
+    margin-top: 20px;
+    font-size: 14px;
 }
