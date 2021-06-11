@@ -140,16 +140,70 @@ body{
     justify-content: space-between;
 }
 
-.money_box1{
+.money_box1,
+.money_box2{
     width: 30%;
     border-right: 1px solid #fff;
+    
+}
+
+.money_box1 h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.money_box1 p{
+    text-align: center;
+    color: #fff;
+
+}
+
+.money_box2 h2{
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.money_box2 p{
+    text-align: center;
+    color: #fabaa0;
+}
+
+.money_box3{
+    width: 30%;
+    
+}
+
+.money_box_make{
+    border-bottom: 1px solid #fff;
+    
+    
+
+}
+
+.money_box_make h2{
+    text-align: center;
+    color: #fabaa0;
+    margin-bottom: 40px;
+    font-weight: 500;
+
+}
+
+.money_box_more p{
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
 }
 
 
 
 
+
+
 .work_section .container{
-    max-width: 1300px;
     margin: 0 auto;
     margin-top: 250px;
     height: 70vh;
@@ -180,12 +234,12 @@ body{
 
 .work_item{
     text-align: center;
-    padding: 40px;
+    padding: 70px;
     
 }
 
 .work_image{
-    width: 220px;
+    width: 280px;
 }
 
 .work_text1{
